@@ -1,38 +1,110 @@
-.App {
-  text-align: center;
+.getuser
+{
+    border: 2px solid white;
+    /* background-color: transparent; */
+    /* color: white; */
+    padding: .6rem 1.5rem;
+}
+.navbar
+{
+    background-color: black;
+    color: white;
+    height: 100vh;
+    overflow: hidden;
+    height: 70px;
+    position: fixed;
+    top: 0%;
+    left: 0;
+    right: 0;
+    z-index: 99;
+
+}
+.nav-data
+{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    height: 100%;
+    margin: auto;
+}
+.brand
+{
+  /* background: -webkit-linear-gradient(#ce8c54, #333); */
+  background: -webkit-linear-gradient(#ff9800, #885c5c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.users
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5rem;
+    justify-content: center;
+    width: 100vw;
+
+}
+.user-profile
+{
+    /* flex-basis: 40%; */
+    height: 300px;
+    border:2px solid black;
+    position: relative;
+    border-radius: .5rem;
+    margin: 5rem 1rem;
+    /* box-shadow: 0px 0px 6px black; */
+    /* box-shadow: 0px 0px 9px #ff9800; */
+    min-width: 300px;
+    max-width: 400px;
+}
+.avatar 
+{
+    position: absolute;
+    /* left: 28%; */
+    top: -20%;
+    border: 2px solid #ff9800;
+    width: 150px;
+    height: 150px;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: auto;
+    width: 125px;
+    height: 125px;
+}
+.avatar img
+{
+    width: 100%;
+    height: 100%;
+    /*  */
+}
+.user-profile h4
+{
+    text-align: center;
+}
+.user-profile h6
+{
+    text-align: center;
+}
+.user-data
+{
+    /* position: absolute; */ 
+    margin: auto;
+    /* left: 0; */
+    /* right: 0; */
+    /* top: 33%; */
+    width: 80%;
+    text-align: center;
+    margin-top: 6rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.middle
+{
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  margin-top: 20rem;
 }
